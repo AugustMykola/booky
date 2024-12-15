@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  background-color: #f8f4f4;
+}
+
+.for-download-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.gray-text {
+  color: #4f6367;
+}
+
+.tertiary {
+  color: #e6997a;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.phone-image {
+  width: 400px;
+  margin-top: 60px;
+  min-height: 300px;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 550px) {
+  body {
+    background-size:auto 2250px
+  }
+  .header-top {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 550px) {
+  .business-detail-card .card-img {
+    max-height:300px!important
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 400px) {
+  body {
+    background-size:auto 2500px
+  }
+
+  //.for-box {
+  //  max-width: 100%!important;
+  //  margin: 15px 30px
+  //}
+
+  .for-download-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  //.dropdownServices.p-element {
+  //  width: 100%!important
+  //}
+
+  //.business-detail-card .card-img {
+  //  max-height: 250px!important
+  //}
+
+}
+
+@media only screen and (min-width: 250px) and (max-width: 300px) {
+  .p-dropdown {
+    width:250px!important
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 750px) {
+  .phone-image {
+    width: 260px;
+  }
+}
+
+@media only screen and (min-width: 925px) and (max-width: 975px) {
+  .phone-image {
+    width: 275px
+  }
+
+  body {
+    background-size: auto 1350px
+  }
+
+  .header {
+    padding-bottom: 50px
+  }
+}
