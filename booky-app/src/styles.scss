@@ -14,11 +14,20 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
 }
 
 .bold-text {
   font-weight: 700;
+}
+
+.for-download-container {
+  min-height: 75px;
+  width: 100%;
+
+  p {
+    text-align: center;
+  }
 }
 
 .gray-text {
@@ -48,21 +57,10 @@ body, html {
   }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 550px) {
-  .business-detail-card .card-img {
-    max-height:300px!important
-  }
-}
-
 @media only screen and (min-width: 250px) and (max-width: 400px) {
   body {
     background-size:auto 2500px
   }
-
-  //.for-box {
-  //  max-width: 100%!important;
-  //  margin: 15px 30px
-  //}
 
   .for-download-content {
     display: flex;
@@ -71,31 +69,17 @@ body, html {
     align-items: center
   }
 
-  //.dropdownServices.p-element {
-  //  width: 100%!important
-  //}
-
-  //.business-detail-card .card-img {
-  //  max-height: 250px!important
-  //}
-
-}
-
-@media only screen and (min-width: 250px) and (max-width: 300px) {
-  .p-dropdown {
-    width:250px!important
-  }
 }
 
 @media only screen and (min-width: 250px) and (max-width: 750px) {
   .phone-image {
-    width: 260px;
+    width: 100%
   }
 }
 
 @media only screen and (min-width: 925px) and (max-width: 975px) {
   .phone-image {
-    width: 275px
+    width: 100%
   }
 
   body {
